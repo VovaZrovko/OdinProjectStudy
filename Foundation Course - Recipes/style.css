@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+}
+
+#header {
+    display: flex; justify-content: space-between;
+}
+
+#main {
+    width: 50%;
+}
+
+.back-btn {
+    padding-top: 30px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    text-decoration: none;
+}
