@@ -6,8 +6,11 @@ body {
     font-family: Roboto;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
+}
+
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,6 +71,8 @@ body {
 
 .footer {
     text-align: center;
+    padding: 32px 0;
+    color: #f9faf8;
 }
 
 a, .sub-text {
