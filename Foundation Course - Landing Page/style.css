@@ -35,7 +35,6 @@ body {
 .main-header-text {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 900;
     line-height: 1;
 }
 
@@ -50,7 +49,7 @@ body {
 
 .img-container {
     background-color: gray;
-    color: white;
+    color: #f9faf8;
     flex: 3;
     display: flex;
     justify-content: center;
@@ -67,6 +66,32 @@ body {
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
+    justify-content: center;
+}
+
+.sing-up-message {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #f9faf8;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 64px 0;
+}
+
+.sing-up-message button {
+    border-color: white;
+    border-style: solid;
+}
+
+.bold-font {
+    font-weight: 900;
+}
+
+.dark-small-font {
+    color: #eaeaea;
+    font-size: 12px;
 }
 
 .footer {
@@ -90,6 +115,7 @@ button {
     padding: 8px 32px;
     color: white;
     font-weight: 900;
+    border-style: hidden;
 }
 
 ul {
