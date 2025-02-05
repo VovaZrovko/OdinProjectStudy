@@ -28,7 +28,7 @@ body {
     padding: 64px 0;
 }
 
-.header-info, .panel, .quote, .info, .sing-up-message {
+.header-info, .panel, .text, .info, .sing-up-message {
     width: 70%;
 }
 
@@ -68,14 +68,41 @@ body {
     flex-grow: 1;
     justify-content: center;
 }
+.info {
+    box-sizing: border-box;
+    padding: 32px 64px 64px 64px;
+}
+
+.info-title {
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.body-container {
+    display: flex;
+    gap: 32px;
+}
+
+.image-container {
+    border-radius: 12px;
+    border: solid #3882F6;
+    height: 200px;
+}
+
+.body-container div{
+    text-align: center;
+    flex-basis: 200px;
+    /* flex-shrink: 0; if you dont want to change size*/
+}
 
 .sing-up-message {
     background-color: #3882F6;
     border-radius: 8px;
     color: #f9faf8;
-    padding: 32px;
+    padding: 32px 64px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
     margin: 64px 0;
 }
@@ -89,9 +116,37 @@ body {
     font-weight: 900;
 }
 
-.dark-small-font {
+.dark-color {
     color: #eaeaea;
+}
+
+.small-font {
     font-size: 12px;
+}
+
+.medium-font {
+    font-size: 24px;
+}
+
+.font-size-large {
+    font-size: 36px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.text {
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 64px 88px;
+}
+
+.text div {
+    text-align: right;
 }
 
 .footer {
