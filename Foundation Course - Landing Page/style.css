@@ -34,12 +34,10 @@ body {
 
 .main-header-text {
     font-size: 48px;
-    color: #f9faf8;
     line-height: 1;
 }
 
-.logo {
-    font-size: 24px;
+.default-text-color {
     color: #f9faf8;
 }
 
@@ -99,7 +97,6 @@ body {
 .sing-up-message {
     background-color: #3882F6;
     border-radius: 8px;
-    color: #f9faf8;
     padding: 32px 64px;
     display: flex;
     justify-content: space-between;
@@ -152,7 +149,6 @@ body {
 .footer {
     text-align: center;
     padding: 32px 0;
-    color: #f9faf8;
 }
 
 a, .sub-text {
